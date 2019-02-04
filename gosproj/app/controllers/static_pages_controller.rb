@@ -12,4 +12,7 @@ class StaticPagesController < ApplicationController
   def contact
     puts "ceci est un message de la page contact ce message doit safficher dans la console"
   end
+  def welcome
+    puts params[:id]
+  end 
 end
