@@ -3,6 +3,7 @@ require 'erb'
 class StaticPagesController < ApplicationController
 
   helper_method :welcome
+
   def gossip
   end
 
