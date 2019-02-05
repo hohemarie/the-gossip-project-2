@@ -1,8 +1,4 @@
-require 'erb'
-
 class StaticPagesController < ApplicationController
-
-  helper_method :welcome
 
   def gossip
   end
@@ -17,10 +13,9 @@ class StaticPagesController < ApplicationController
   def contact
     puts "ceci est un message de la page contact ce message doit safficher dans la console"
   end
-end
-module TestHelper
   def welcome
     @name = params[:name]
-    puts params
   end 
+  def team
+  end
 end
